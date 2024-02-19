@@ -1,7 +1,7 @@
 /*---  This is my css page. ---*/
 
 body {
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Trajan Pro', serif;
     font-size: 16px
     font-weight: 300;
     margin: 0;
@@ -22,7 +22,7 @@ header h1, p{
 }
 /*---  This is where I format the navigation. ---*/
 nav {
-    background-color: #f2b705; 
+    background-color: #ADD8E6; 
 }
 nav ul{
     list-style-type:none;
@@ -43,7 +43,7 @@ nav a:hover{
 }
 nav li.active a{
     background-color: #024873;
-    color:#f2b705;
+    color:#ADD8E6;
     }
 /*---  This is where my main section is.  ---*/
     
@@ -92,7 +92,7 @@ main ul li{
 
 address {
     font-style: normal;
-    background-color: #f2b705;
+    background-color: #ADD8E6;
     padding: .5rem;
     width: 12.5rem;
     border: 2px solid #024873;
@@ -112,6 +112,7 @@ footer {
 footer a{
     color: #024873;
 }
+
 
 
 
