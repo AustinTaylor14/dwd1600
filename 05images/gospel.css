@@ -1,5 +1,5 @@
 /*---  This is my css page. ---*/
-
+<link rel="stylesheet" href="gospel.html">
 body {
     font-family: 'Trajan Pro', serif;
     font-size: 16px
@@ -125,9 +125,26 @@ figure.jesus img {
     height: auto;
 }
 
-
 figure.jesus figcaption{
     text-align:  center;
     font-size: 125%rem;
 }
+
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem
+    color: #024873
+}
+
+
 
