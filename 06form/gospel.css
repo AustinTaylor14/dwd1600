@@ -1,0 +1,149 @@
+/*---  This is my css page. ---*/
+
+body {
+    font-family: "Monda", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*---  This is where I format the header. ---*/
+
+header {
+background-color:#eaeaea;
+padding: 1rem 2vw;
+}
+header p {
+    letter-spacing: .5px;
+}
+header h1, p{
+    margin: 2px;
+    color: #024873;
+}
+/*---  This is where I format the navigation. ---*/
+nav {
+    background-color: #ADD8E6; 
+}
+nav ul{
+    list-style-type:none;
+    padding: 0 2vw;
+    margin: 1px;
+    display: flex; 
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color:#024873; 
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav a:hover{
+    color: white;
+}
+nav li.active a{
+    background-color: #024873;
+    color:#ADD8E6;
+    }
+/*---  This is where my main section is.  ---*/
+    
+    
+    main {
+        padding: 1rem 2vw
+    }
+
+main h1{
+    color: #b40412;
+}
+
+main h2{
+    color: #024873;
+}
+
+main p{
+    color: #2f3133;
+    margin: 0 0 .3rem .7rem;
+}
+
+main ol {
+    padding: .5rem 3vw;
+    background-color: #efefef;
+}
+
+main dl dt{
+    color: #b40412;
+    font-weight:700;
+}
+
+main dl dd {
+    color:#024873;
+    font-size: .9rem;
+}
+
+main ul {
+    list-style-type:lower-roman;
+}
+
+main ul li{
+    line-height: 125%;
+        margin-bottom: .5rem;
+    font-size: .7rem;
+}
+
+address {
+    font-style: normal;
+    background-color: #ADD8E6;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 2px solid #024873;
+    border-radius: .8rem;
+}
+
+/*---  This is where I format the footer section. ---*/
+
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    color: #024873;
+        padding: 1rem 0;
+    font-size: .8rem;
+}
+
+footer a{
+    color: #024873;
+}
+/*this is to format the images*/
+
+figure.jesus {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+figure.jesus img {
+    width:100%;
+    height: auto;
+}
+
+figure.jesus figcaption{
+    text-align:  center;
+    font-size: 10px;
+}
+
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #024873;
+}
+
+
+
