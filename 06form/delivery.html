@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta name="author" content="Austin Taylor">
+    <meta name="description" content="Learn about the Declaration of Independence of the United States">
+    <title>Gospel Treasury: Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="gospel.css">
+    
+</head>
+<body id="top">
+<!--Start of my page header-->
+<header>
+    <h1>Gospel Treasury</h1>
+<p>Everything Gospel</p>
+</header>
+
+<!--Start of my navigation-->
+<nav>
+  <ul>
+    <li><a href="index.html">About Us</a></li>
+    <li><a href="gospel.html">Gospel Treasury</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li class="active"><a href="delivery.html">Request a Delivery</a></li>
+    <li><a href="#">Topics and Questions</a></li>
+    
+  </ul>
+</nav>
+
+
+    <!--Start of my page content-->
+<h1>Request a Delivery</h1>
+    <form method="get" class="myform" action="thanks.html">
+    <fieldset>
+        <legend>Contact Information</legend>
+       <label>First Name*<input type="text" name="fname" required>
+        </label>
+        <label>Last Name*<input type="text" name="lname" required>
+        </label>
+        <label> Phone Number*:<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+        <label>Email*:<input type="text" name="email" required></label>
+    </fieldset>
+            <fieldset>
+            <legend>Delivery Method</legend>
+             <label><input type="radio" name="method" value="store">Store Pickup (2 days)</label>
+            <label><input type="radio" name="method" value="truck">Truck  Delivery(3 days)</label>
+            <label><input type="radio" name="method" value="helicopter">Helicopter Delivery (4 days)</label>
+               
+            
+           
+                </fieldset>
+          
+                <fieldset>
+        <legend>Delivery Options</legend>
+         <label><input type="checkbox" name="frontdoor" value="frontdoor">Front Door</label>
+         <label><input type="checkbox" name="sidedoor" value="sidedoor">Side Door</label>
+         <label><input type="checkbox" name="backdoor" value="backdoor">Back Door</label>
+         <label><input type="checkbox" name="garage" value="garage">Garage</label>
+        
+        </fieldset>
+        <fieldset>
+               <legend>Preferred Delivery Time</legend>
+            <label>
+                <select name="time">
+                <option value="none">Please select</option>
+                <option value="morning">Between 6:00am and 10:00am</option>
+                <option value="afternoon">Between 10:00am and 1:00pm</option>
+                <option value="evening">Between 1:00am and 4:00pm</option>
+               
+                    
+            </select></label>
+               
+            
+            <label>Comments: <textarea name="comments"></textarea></label>
+            </fieldset>
+   
+        
+    <input type="submit" value="Send Delivery Request">
+    </form>
+<!--Start of my footer-->
+<footer>
+        <p>&copy; 2024 | Austin Taylor &bull; <a href="mailto:sampleemail@gmail.com">Email Here</a></p>
+</footer>
+</body>
+</html>
