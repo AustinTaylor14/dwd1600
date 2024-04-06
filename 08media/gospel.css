@@ -1,0 +1,292 @@
+/* prevent problems with different browser*/
+* {box-sizing: border-box;}
+
+/*---  This is my css page. ---*/
+
+body {
+    font-family: "Monda", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*---  This is where I format the header. ---*/
+
+* {box-sizing: border-box;}
+
+header {
+padding: 1rem 2vw;
+display: flex;
+align-items: flex-end;
+}
+header div {
+    padding-left: 1vw;
+}
+header p {
+    letter-spacing: .5px;
+}
+header h1, p{
+    margin: 2px;
+    color: #024873;
+}
+/*--- small screens ---*/
+@media only screen and (max-width: 900px) {
+    nav ul {
+        margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;
+    }
+    nav a {
+        display: block;
+        padding: .8rem;
+        text-decoration: none;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: solid 1px #aaa;
+        color: #8C501B;
+    }
+    nav .active a {
+        background-color: #024873;
+        background-image: linear-gradient(to bottom, #024873, #012f4b);
+        color: white;
+    }
+    
+    
+    
+} /*end of the media query*/
+
+
+/*---  This is where I format the navigation. ---*/
+/*  BIG  screens*/
+@media only screen and (min-width: 901px) {
+    
+    
+    nav {
+    background-color: #ADD8E6; 
+}
+nav ul{
+    list-style-type:none;
+    padding: 0 2vw;
+    margin: 1px;
+    display: flex; 
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color:#024873; 
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav a:hover{
+    color: white;
+}
+nav li.active a{
+    background-color: #024873;
+    color:#ADD8E6;
+    }
+    
+} /*end of the media query*/
+
+
+
+/*---  This is where my main section is.  ---*/
+    
+    
+    main {
+        padding: 1rem 2vw
+    }
+
+main h1{
+    color: #b40412;
+}
+
+main h2{
+    color: #024873;
+}
+
+main p{
+    color: #2f3133;
+    margin: 0 0 .3rem .7rem;
+}
+
+main ol {
+    padding: .5rem 3vw;
+    background-color: #efefef;
+}
+
+main dl dt{
+    color: #b40412;
+    font-weight:700;
+}
+
+main dl dd {
+    color:#024873;
+    font-size: .9rem;
+}
+
+main ul {
+    list-style-type:lower-roman;
+}
+
+main ul li{
+    line-height: 125%;
+        margin-bottom: .5rem;
+    font-size: .7rem;
+}
+
+
+.firstvisionhero {
+    width: 100%;
+    margin: 0;
+    
+}
+
+.firstvisionhero img {
+    width: 100%; 
+    height: auto;
+    padding: 10px 5vw;
+     
+}
+
+.firstvisionhero img:hover {
+     box-shadow: 1px 2px 10px rgba(0,0,0,0.3); 
+}
+
+
+address {
+    font-style: normal;
+    background-color: #ADD8E6;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 2px solid #024873;
+    border-radius: .8rem;
+}
+
+
+form.myform fieldset {
+    border: 1.5px solid #024873;
+    border-radius: 2.2px;
+    margin-bottom: 1.5rem
+}
+form.myform legend {
+    color: #024873;
+    font-size: 1rem;
+}
+form.myform label {
+    margin: .7rem;
+}
+
+form.myform label, .myform select, .myform [type=text] .myform [type=tel], .myform textarea {
+    display:block;
+}
+
+form.myform [type=text], .myform [type=tel], .myform select, .myform text
+{
+    border: solid 1px blue;
+    padding: .4rem;
+    width: 270px;
+    border-radius: .4rem;
+    font-family: "Monda", sans-serif;
+    font-weight: 400;
+}
+form.myform textarea {
+    height: 7rem;
+}
+
+form.myform :required {
+    background-color: lightblue;
+}
+
+
+form.myform [type=submit] {
+    background-color: #024873;
+    border: none;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    color: white;
+    margin: 1.4rem 0 0 1.2vw;
+}
+
+table.topics-questions {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+table.topics-questions th {
+    background-color: #024873;
+    color: white;
+    padding: .7rem 3vw;
+    text-align: left;
+}
+
+table.topics-questions td {
+    color: black;
+    padding: .6rem 3vw;
+}
+
+table.topics-questions tr:nth-child(even) {
+    background-color: #eaeaea;
+}
+
+table.topics-questions tr:hover {
+    background-color: #ADD8E6
+}
+
+
+/*---  This is where I format the footer section. ---*/
+
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    color: #024873;
+        padding: 1rem 0;
+    font-size: .8rem;
+}
+
+footer a{
+    color: #024873;
+}
+/*this is to format the images*/
+
+figure.jesus {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+figure.jesus img {
+    width:100%;
+    height: auto;
+}
+
+figure.jesus figcaption{
+    text-align:  center;
+    font-size: 10px;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #024873;
+}
+
+
+
+
+
+header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto;
+}
+
